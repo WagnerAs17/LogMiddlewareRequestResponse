@@ -28,7 +28,7 @@ namespace PocLoggingRequestResponse.Middleware
         private async Task LogRequest(HttpContext context) 
         {
             context.Request.EnableBuffering();
-            using (var stream = new MemoryStream())
+            using (var stream = new RecyclableMemoryStreamManager().GetStream())
             {
                 await context.Request.Body.CopyToAsync(stream);
                 _logger.LogInformation($"Http Request Information:{Environment.NewLine}" +
@@ -44,7 +44,7 @@ namespace PocLoggingRequestResponse.Middleware
         private async Task LogResponse(HttpContext context) 
         {
             var originalBodyStream = context.Response.Body;
-            using (var stream = new MemoryStream())
+            using (var stream = new RecyclableMemoryStreamManager().GetStream())
             {
                 context.Response.Body = stream;
                 await _next(context);
