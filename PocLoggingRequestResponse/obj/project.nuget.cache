@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "pfciWQNmki5NKHIcL3WIrfUciDSr/7ae9ynOdGxXyN592UeUs8esKcsMhkehZkz7YRkwCZg7YCnmcDQxocH5xA==",
+  "success": true,
+  "projectFilePath": "C:\\Estudos\\dotnet\\PocLoggingRequestResponse\\PocLoggingRequestResponse\\PocLoggingRequestResponse.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wagne\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.2.1\\microsoft.io.recyclablememorystream.2.2.1.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.28\\microsoft.netcore.app.host.win-x86.3.1.28.nupkg.sha512"
+  ],
+  "logs": []
+}
